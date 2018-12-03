@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace AdventOfCode.Day_3
@@ -16,7 +13,6 @@ namespace AdventOfCode.Day_3
             public readonly int y;
             public readonly int width;
             public readonly int height;
-            public bool collision;
             
             public Claim(string line)
             {
@@ -109,7 +105,6 @@ namespace AdventOfCode.Day_3
                 }
             }
             return false;
-
         }
     }
 }
